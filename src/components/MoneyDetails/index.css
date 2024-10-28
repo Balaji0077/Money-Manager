@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.balance {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90vw;
+  padding: 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+.income {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90vw;
+  padding: 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+.expenses {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90vw;
+  padding: 10px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+.money-images {
+  width: 75px;
+  height: 65px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.money-heading {
+  font-size: 16px;
+  color: #7e858e;
+}
+.money-rupees {
+  font-size: 20px;
+  color: #7e858e;
+}
+@media screen and (min-width: 768px) {
+  .balance {
+    width: 28vw;
+    padding: 4px;
+  }
+  .income {
+    width: 28vw;
+  }
+  .expenses {
+    width: 28vw;
+  }
+  .money-heading {
+    font-size: 20px;
+  }
+  .money-rupees {
+    font-size: 22px;
+  }
+}

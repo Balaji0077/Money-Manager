@@ -1,0 +1,132 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.name-heading {
+  color: #475569;
+  font-size: 28px;
+}
+.name-invite {
+  color: #475569;
+  font-size: 16px;
+  text-align: center;
+}
+.app-theme {
+  color: #0b69ff;
+}
+.balance-container {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 18px;
+}
+.add-container {
+  border: 3px solid #d7dfe9;
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 18px;
+}
+.add-heading {
+  font-size: 18px;
+  color: #7e858e;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.title-text {
+  color: #7e858e;
+  font-size: 14px;
+}
+.containers {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.type-name {
+  width: 95%;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+  border: 2px solid #d7dfe9;
+}
+.add-btn {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 100px;
+  height: 46px;
+  font-weight: bold;
+  border-width: 0px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.history-container {
+  border: 3px solid #d7dfe9;
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 18px;
+  min-height: 70vh;
+}
+.history-items {
+  display: flex;
+  border: 2px solid #d7dfe9;
+  padding: 2px;
+  justify-content: space-around;
+}
+.history-table {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.para-text-1 {
+  margin-left: 10px;
+}
+.para-text-2 {
+  margin-left: 30px;
+}
+.para-text-3 {
+  margin-left: 30px;
+}
+.add-history-containers {
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .balance-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .add-history-containers {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .add-container {
+    width: 45%;
+  }
+  .history-container {
+    width: 50%;
+  }
+  .history-items {
+    justify-content: space-around;
+  }
+}

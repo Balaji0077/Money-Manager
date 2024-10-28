@@ -1,0 +1,21 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.list-items-transaction {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #d7dfe9;
+  border-top: none;
+  color: #7e858e;
+}
+.delete-img {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+.delete-btn {
+  border-width: 0px;
+  outline: none;
+  background-color: transparent;
+}
