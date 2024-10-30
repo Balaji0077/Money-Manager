@@ -1,4 +1,4 @@
-<h1>**Money Manager**</h1.
+<h1>Money Manager</h1.
 
 
 <br/>
