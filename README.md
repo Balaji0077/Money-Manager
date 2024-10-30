@@ -1,6 +1,5 @@
-**Money Manager** app.
+<h1>**Money Manager**</h1.
 
-### Refer to the image below:
 
 <br/>
 <div style="text-align: center;">
